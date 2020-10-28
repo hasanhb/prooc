@@ -1,0 +1,18 @@
+ALGORITHM algorithm_DOT_PRODUCT
+VAR
+ tab1: Array_of INTEGER ;
+ tab2: Array_of INTEGER;
+ ps:INTEGER:0
+ i : INTEGER
+BEGIN
+FOR i FROM 0 TO tab1.lenght-1 STEP 1  DO
+    write ( donner element " , i+1 ", de la vecteur tab1 ")
+    read ( tab1[i]);
+    write ( donner element " , i+1 ", de la vecteur tab2 ")
+      read (tab2 [i]) ;
+      END FOR
+FOR i FROM 0 TO tab1,tab2.lenght-1 STEP 1  DO
+      ps= ps +tab[i] * tab2[i]
+END_FOR
+    write(ps)
+END
